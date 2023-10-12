@@ -6,6 +6,9 @@ public class BusinessAccount extends Account {
     public BusinessAccount(){
 
     }
+    public void TestePegandoaBussis(){
+        System.out.println("pego");
+    }
 //Como esta extendo de outra class, devemos passar os argumentos da outra class mais o argumento da class atual.
     public BusinessAccount(Integer number, String holder, Double balance, Double loanLimit) {
         super(number, holder, balance);

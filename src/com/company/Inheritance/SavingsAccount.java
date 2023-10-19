@@ -24,8 +24,9 @@ public final class SavingsAccount extends Account{
         balance += balance * interestRate;
     }
     @Override
-    public void  withDraw(double amount){
+    public boolean withDraw(double amount){
         balance -= amount;
+        return false;
     }
 
 }

@@ -34,3 +34,13 @@ variavel.(retorna todos metodos/atributos da superclasse)
     public final class Saving(){}
     public final void withDraw(){}
 ````
+## Polimorfismo
+#### É a capicidade de objetos de classes diferentes respoderem de maneira única a chamadas de metodos com o mesmo nome.
+````ruby
+        Account x = new Account(1001, "David", 1000.0);
+        Account y = new SavingsAccount(1002, "Mateus", 1000.0, 0.01);
+        x.withDraw(50.0);
+        y.withDraw(50.0);
+        System.out.println(x.getBalance());
+        System.out.println(y.getBalance());
+````

@@ -27,3 +27,10 @@ variavel.(retorna todos metodos/atributos da superclasse)
     }
 ````
 
+## Classes e metodos final
+#### A palavra chave : final - na classe evita que seja herdada e no metodo evita que seja sobreposto, ou seja não permite o uso de override.
+#### Obs: Recomenda-se usar em sopreposições a palavra final para evitar inconsistência de dados
+````ruby
+    public final class Saving(){}
+    public final void withDraw(){}
+````

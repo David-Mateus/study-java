@@ -17,3 +17,13 @@ SuperClasse = variavel = new SubClasse()
 variavel.(retorna todos metodos/atributos da superclasse)
 ````
 #### Downcasting: É o processo de conveter uma referencia da superclasse de volta para sua subclasse.
+
+## Sobreposição
+#### É a implemntação de um metedo de uma superclasse na subclasse | @Override
+````ruby
+        @Override
+        public void  withDraw(double amount){
+        balance -= amount;
+    }
+````
+

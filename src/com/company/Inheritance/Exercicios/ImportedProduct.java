@@ -18,10 +18,15 @@ public class ImportedProduct extends  Product{
         this.customFree = customFree;
     }
     public Double totalPrice(){
-        return getPrice() * customFree;
+        return getPrice() + customFree;
     }
     @Override
-    public String priceTag(){
-        return null;
+    public String priceTag() {
+        return getName()
+                + " $ "
+                + String.format("%.2f", totalPrice())
+                + " (Customs fee: $ "
+                + String.format("%.2f", customFree)
+                + ")";
     }
 }

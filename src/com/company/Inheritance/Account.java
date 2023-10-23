@@ -1,6 +1,6 @@
 package com.company.Inheritance;
 
-public class Account {
+public abstract  class Account {
     //Obs: usa-se Integer, porque aceita valor nulo
     private Integer number;
     private String holder;

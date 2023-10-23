@@ -37,10 +37,24 @@ variavel.(retorna todos metodos/atributos da superclasse)
 ## Polimorfismo
 #### É a capicidade de objetos de classes diferentes respoderem de maneira única a chamadas de metodos com o mesmo nome.
 ````ruby
+        #withDraw é metodo da class Pai
         Account x = new Account(1001, "David", 1000.0);
         Account y = new SavingsAccount(1002, "Mateus", 1000.0, 0.01);
         x.withDraw(50.0);
+        #Sendo chamado por uma classe derivada e seu comprotamento/modficiação sera executado com base na implementação, ou seja na classe Saving
         y.withDraw(50.0);
         System.out.println(x.getBalance());
         System.out.println(y.getBalance());
+````
+## Classe Abstrata
+#### Classes abstrata são classes que servem como um modelo para suas subclasses.
+#### Ou seja, essas classes não podem ser instanciadas, apenas podem ser herdadas.
+````ruby
+        #Ao adicionar abstract na class account
+       public abstract class Account{
+            (...)
+       }
+       # E tentamos instaciar a mesma. Dará um erro: Account' is abstract; cannot be instantiated
+        Account acc1 = new Account(1001, "Alex", 1000.0);
+       
 ````

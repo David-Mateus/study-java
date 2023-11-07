@@ -8,12 +8,14 @@ public class Program {
 
         Scanner sc = new Scanner(System.in);
         try{
-        String [] vect = sc.nextLine().split(" ");
+            String [] vect = sc.nextLine().split(" ");
             int postion = sc.nextInt();
             System.out.println(vect[postion]);
-        }catch ( ArrayIndexOutOfBoundsException e){
+        }
+        catch ( ArrayIndexOutOfBoundsException e){
             System.out.println("Invalid position");
-        }catch (InputMismatchException e){
+        }
+        catch (InputMismatchException e){
             System.out.println("Input error");
         }
 

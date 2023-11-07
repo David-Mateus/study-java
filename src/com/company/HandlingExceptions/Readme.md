@@ -15,3 +15,4 @@
        catch(ExceptionType e){}
        
 ````
+#### Bloco finally - é um bloco que contém codigo a ser executado independentemente de ter ocorrido ou não exceção;

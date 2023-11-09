@@ -1,7 +1,7 @@
 package com.company.programcao2;
 
 import java.util.Scanner;
-
+//Faça um programa que calcule e mostre a área de um triângulo. Sabe-se que: Área = (base * altura)/2.
 public class Program4 {
     public static void main(String[] args) {
 

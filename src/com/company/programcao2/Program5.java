@@ -2,6 +2,8 @@ package com.company.programcao2;
 
 import java.util.Scanner;
 import java.lang.Math;
+//Faça um programa que receba dois números maiores que zero, calcule e mostre um elevado ao outro.
+//Dica: use import java.lang.Math; com a função pow
 public class Program5 {
     public static void main(String[] args) {
 

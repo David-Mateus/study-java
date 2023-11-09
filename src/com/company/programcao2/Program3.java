@@ -1,7 +1,7 @@
 package com.company.programcao2;
 
 import java.util.Scanner;
-
+//Faça um programa que receba o salário de um funcionário, calcule e mostre o novo salário, sabendo-se que este sofreu um aumento de 25%.
 public class Program3 {
     public static void main(String[] args) {
 
